@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Квадратное уравнение</string>
+    <string name="input">Введите коэффиценты</string>
+    <string name="a">a</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    <string name="otvet">Ответ</string>
+    <string name="rashet">Расчет</string>
+</resources>
