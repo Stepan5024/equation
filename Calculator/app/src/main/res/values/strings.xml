@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="mult">*</string>
+    <string name="div">/</string>
+    <string name="hel">Введи числа</string>
+</resources>

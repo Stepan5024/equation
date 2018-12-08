@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="212dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/hel"
+        app:layout_constraintBottom_toTopOf="@+id/btnpl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editText2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/btnpl"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/plus"
+        app:layout_constraintBottom_toTopOf="@+id/btnmult"
+        app:layout_constraintEnd_toStartOf="@+id/btnmin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <Button
+        android:id="@+id/btnmin"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="226dp"
+        android:text="@string/minus"
+        app:layout_constraintBottom_toTopOf="@+id/btndiv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnpl"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnmult"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="58dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="39dp"
+        android:text="@string/mult"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btndiv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnpl" />
+
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="133dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="58dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginStart="40dp"
+        android:text="@string/div"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnmult"
+        app:layout_constraintTop_toBottomOf="@+id/btnmin" />
+
+</android.support.constraint.ConstraintLayout>
