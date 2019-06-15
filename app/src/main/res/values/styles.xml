@@ -10,7 +10,6 @@
 
     <style name="input">
 
-        <item name="android:fontFamily">@font/open_sans</item>
         <item name="android:paddingTop">12dp</item>
         <item name="android:paddingBottom">12dp</item>
         <item name="android:paddingRight">12dp</item>
@@ -20,6 +19,15 @@
     <style name="input.black">
 
         <item name="android:background">@drawable/input</item>
+
+    </style>
+    <style name="inputblacktext">
+
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textColor">@color/colorInputText</item>
         <item name="android:textColorHint">@color/colorInputHint</item>
 
@@ -27,7 +35,16 @@
     <style name="input.white">
 
         <item name="android:background">@drawable/input_white</item>
-        <item name="android:textColor">@color/colorInputWhiteText</item>
+
+    </style>
+    <style name="inputwhitetext">
+
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
         <item name="android:textColorHint">@color/colorInputWhiteHint</item>
 
     </style>
