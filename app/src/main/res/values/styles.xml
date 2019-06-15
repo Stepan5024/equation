@@ -31,5 +31,31 @@
         <item name="android:textColorHint">@color/colorInputWhiteHint</item>
 
     </style>
+    <style name="button">
+
+        <item name="android:fontFamily">@font/open_sans_semibold</item>
+
+    </style>
+    <style name="button.white">
+
+        <item name="android:background">@drawable/button_white</item>
+
+    </style>
+    <style name="button.white.blackText">
+
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+    <style name="button.white.gradientText">
+
+        <item name="android:textColor">@color/colorPrimary</item>
+
+    </style>
+    <style name="button.gradient">
+
+        <item name="android:background">@drawable/button_gradient</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
 
 </resources>
