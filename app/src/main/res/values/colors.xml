@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#11998E</color>
+    <color name="colorPrimaryDark">#38EF7D</color>
+    <color name="gradientYellowStart">#F37335</color>
+    <color name="gradientYellowEnd">#FDC830</color>
+    <color name="gradientRedStart">#CB2D3E</color>
+    <color name="gradientRedEnd">#EF473A</color>
+    <color name="gradientBlackStart">#000000</color>
+    <color name="gradientBlackEnd">#434343</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorInputHint">#888888</color>
+    <color name="colorInputText">#555555</color>
+    <color name="colorInputWhiteHint">#EAEAEA</color>
+    <color name="colorInputWhiteText">#FFFFFF</color>
 </resources>
